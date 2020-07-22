@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer{
+  position: absolute;;
+  top: 970px;
+}
+#main{
+    height: 1150px;
+    width: 1920px;
+/*    border-right: solid 1px;*/
+    position: absolute;
+}
+#backdiv1{
+    height: 880px;
+    width: 1920px;
+    /* border: solid 1px; */
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    background-color: white;
+    background-image: linear-gradient(white,#E63339);
+}
+
+#form{
+    height: 480px;
+    width: 1265px;
+    position: relative;
+    top: 100px;
+    left: 320px;
+    background-color: #E63339;
+    opacity: .9;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #E63339;
+}
+#inone,#intwo,#inthree,#infour{
+  /* border: solid 1px white; */
+  height: 50px;
+  padding: 30px;
+  width: auto;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+}
+#intxtone,#intxttwo,#intxtthree{
+  width: auto;
+  position: relative;
+  top: -35px;
+  z-index: 1;
+}
+#bbnametxt,#usernametxt,#emailtxt,#addresstxt,
+#pincodetxt,#stafftxt,#headtxt,#passtxt,#repasstxt{
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  font-family: sans-serif;
+}
+#usernametxt,#pincodetxt,#passtxt{
+  left: 430px;
+}
+#emailtxt,#stafftxt,#repasstxt{
+  left: 830px;
+}
+
+#bbname,#username,#email,#address,#pincode,#staffcontact,#headcontact,#password,#repassword,#sub{
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: 0px;
+    position: relative;
+    left: 30px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* color: grey; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #E63339;
+}
+#username,#pincode,#password{
+  left: 75px;
+}
+#email,#staffcontact,#repassword{
+  left: 120px;
+}
+#sub{
+  top: -10px;
+  left: 485px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 230px;
+}
+#bloodline{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    z-index: 1;
+    height: 200px;
+    width: 1920px;
+}

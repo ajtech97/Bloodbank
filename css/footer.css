@@ -1,0 +1,167 @@
+#mainfooter {
+    position: absolute;
+    background-color: e63339;
+    width: 1920px;
+    height: 180px;
+    top: 0px;
+    left: 0px;
+/*    border: solid;*/
+}
+#google {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    //background-color: #1565C0;
+    left: 50%;
+    margin-left: -330px;
+    top: 25px;
+/*    border: solid;*/
+    background-image: url("../images/google.png");
+    background-size: cover;
+    cursor: pointer;
+    z-index: 100;
+}
+#google:hover {
+    top: 22px;
+    margin-left: -335px;
+    height: 60px;
+    width: 60px;
+}
+#facebook {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+    //background-color: #1565C0;
+    left: 50%;
+    margin-left: -230px;
+    top: 23px;
+    background-image: url("../images/facebook.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#facebook:hover {
+    top: 21px;
+    margin-left: -235px;
+    height: 65px;
+    width: 65px;
+}
+#youtube {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    //background-color: #1565C0;
+    left: 50%;
+    margin-left: -130px;
+    top: 13px;
+    background-image: url("../images/youtubelogoorg.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#youtube:hover {
+    top: 10px;
+    margin-left: -135px;
+    height: 85px;
+    width: 85px;
+}
+#twitter {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    //background-color: #1565C0;
+    left: 50%;
+    margin-left: 3px;
+    top: 22px;
+    background-image: url("../images/twitterlogo.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#twitter:hover {
+    top: 19px;
+    margin-left: -3px;
+    height: 70px;
+    width: 70px;
+}
+#pinterest {
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    border-radius: 100px;
+    //background-color: #1565C0;
+    left: 50%;
+    margin-left: 110px;
+    top: 10px;
+    background-image: url("../images/pinterest.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#pinterest:hover {
+    top: 7px;
+    margin-left: 105px;
+    height: 95px;
+    width: 95px;
+}
+#instagram {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    //background-color: black;
+    left: 50%;
+    margin-left: 245px;
+    top: 28px;
+    background-image: url("../images/instagram.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#instagram:hover {
+    top: 25px;
+    margin-left: 240px;
+    height: 60px;
+    width: 60px;
+}
+#footerdiv1 {
+    position: absolute;
+    height: 100px;
+    width: 1000px;
+    left: 55%;
+    margin-left: -620px;
+    //border: solid;
+}
+#footerdiv2 {
+    position: absolute;
+    height: 70px;
+    width: 1000px;
+    border-top: solid 1px white;
+    left: 55%;
+    margin-left: -620px;
+    top: 100px;
+    //border: solid;
+}
+#footertext {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 55%;
+    margin-left: -500px;
+    top: 30px;
+}
+#footertext1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 55%;
+    margin-left: 200px;
+    top: 10px;
+}
+#footertext2 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 55%;
+    margin-left: 200px;
+    top: 40px;
+}

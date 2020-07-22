@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+footer
+{
+  position: absolute;;
+  top:1695px;
+}
+#main{
+    height: 1875px;
+    width: 1920px;
+   /* border: solid 5px; */
+    position: absolute;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#slider
+{
+    height: 700px;
+    width: 1920px;
+    position: absolute;
+    top: 90px;
+/*    border: solid 1px;*/
+}
+#txtone{
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    padding: 50px
+}
+#txt1,#txt11{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    padding: 40px;
+    position: relative;
+    top: -100px;
+}
+#txt11{
+    font-size: 30px;
+    top: -210px;
+}
+#donorslide1{
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#searchbox{
+    height: 130px;
+    width: 1100px;
+    background-color: #e63339;
+    position: relative;
+    top: -130px;
+    left: 400px;
+    z-index: 1;
+    border-radius: 5px;
+}
+#bloodgroup,#name,#contactno,#pincode,#broadcastsms{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 0px;
+    font-weight: 500;
+}
+#name,#contactno,#pincode{
+    width: 250px;
+    left: 60px;
+    cursor: default;
+    padding-left:5px;
+    color: black;
+    cursor: pointer;
+}
+#contactno{
+    left: 80px;
+}
+#pincode{
+    left: 100px;
+}
+#broadcastsms{
+    top: 35px;
+    left: 420px;
+    padding-left: 10px;
+    background-color: #ffaa00;
+    font-weight: 800px;
+    color: black;
+    box-shadow: 1px 1px 1px 1px #ffaa00 black;
+}
+#outerdiv1,#outerdiv2{
+    height: 600px;
+    width: 1920px;
+   /* border:solid 1px; */
+    position: absolute;
+    top: 790px;
+    background-color: white;
+    /* background-image: linear-gradient(#E63339,white); */
+}
+#bloodline{
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    height: 200px;
+    width: 1920px;
+}
+#subdiv1,#subdiv2{
+    height: 340px;
+    width: 1400px;
+/*    border: solid 1px;*/
+    background-color: #a6a6a6;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    border-radius: 20px;
+}
+#box1,#box2,#box3{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 150px;
+    top: 43px;
+    cursor: pointer;;
+/*    border: solid 1px;*/
+    background-color: white;
+}
+#box2{
+    left: 550px;
+}
+#box3{
+    left: 950px;
+}
+#bloodbottle,#bloodtips,#bloodwhy{
+    height: 100px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+#bloodtxt1,#bloodtxt2,#bloodtxt3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+#outerdiv2{
+    height: 300px;
+/*    border:solid 1px;*/
+    top: 1390px;
+    background-image: url("./images/slide1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+#subdiv2{
+    height: 180px;
+    width: 1000px;
+    left: 450px;
+    top: 60px;
+/*    border: solid 1px;*/
+    background-color: black;
+    opacity: .8;
+    border-radius: 20px;
+}
+#boximg1,#boximg2,#boximg3{
+/*    border:solid 1px;*/
+    position: absolute;
+/*    background-color: white;*/
+    left: 100px;
+    top: 50px;
+}
+#boximg2{
+    left: 400px;
+}
+#boximg3{
+    left: 750px;
+}
+#bbottletxt,#bhandtxt,#bdroptxt{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    top: -80px;
+    left: 80px;
+}

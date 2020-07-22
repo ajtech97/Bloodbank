@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer{
+  position: absolute;;
+  top: 970px;
+}
+#main{
+    height: 1150px;
+    width: 1920px;
+/*    border-right: solid 1px;*/
+    position: absolute;
+}
+#backdiv1{
+    height: 880px;
+    width: 1920px;
+    /* border: solid 1px; */
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    background-color: white;
+    background-image: linear-gradient(white,#E63339);
+}
+
+#form{
+    height: 480px;
+    width: 1265px;
+    position: relative;
+    top: 100px;
+    left: 320px;
+    background-color: #E63339;
+    opacity: .9;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #E63339;
+}
+#inone,#intwo,#inthree,#infour{
+  /* border: solid 1px white; */
+  height: 50px;
+  padding: 30px;
+  width: auto;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+}
+/* #inthree{
+  left: 100px;
+} */
+#intxtone,#intxttwo,#intxtthree{
+  width: auto;
+  position: relative;
+  top: -35px;
+  z-index: 1;
+  /* border: solid; */
+}
+#fnametxt,#mnametxt,#lnametxt,#bgrouptxt,
+#gendertxt,#dobtxt,#contxt,#pintxt,#emailtxt,#maletxt,#femaletxt{
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  font-family: sans-serif;
+}
+#mnametxt,#gendertxt,#pintxt{
+  left: 430px;
+}
+#lnametxt,#dobtxt,#emailtxt{
+  left: 830px;
+}
+#maletxt,#femaletxt{
+  top: -7px;
+  left: 50px;
+  color: black;
+}
+#femaletxt{
+  left: 180px;
+}
+
+#fname,#mname,#lname,#bloodgroup,#genderback,#male,#female,#date,#contactno,#pincode,#email,#sub{
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: 0px;
+    position: relative;
+    left: 30px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* color: grey; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #E63339;
+}
+#mname,#male,#female,#pincode{
+  left: 75px;
+}
+#male,#female{
+  height: 18px;
+  width: 18px;
+  left: 80px;
+  top: 13px;
+  box-shadow: 1px 1px 1px 1px white;
+}
+#female{
+  left: 200px;
+}
+#genderback{
+  left: 430px;
+  top: -50px;
+  width: 330px;
+}
+#lname,#date,#email{
+  left: 120px;
+}
+#date{
+  top: -100px;
+  left: 828px;
+}
+#sub{
+  top: -10px;
+  left: 485px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 230px;
+}
+#bloodline{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    z-index: 1;
+    height: 200px;
+    width: 1920px;
+}

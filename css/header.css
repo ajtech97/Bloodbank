@@ -1,0 +1,51 @@
+header{
+    height: 90px;
+    width: 1920px;
+    position: absolute;
+    background-color: #e63339;
+}
+#headerimg{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+#headertext{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 180px;
+}
+
+#tabs{
+    position: absolute;
+    left: 700px;
+    top: -20px;
+    z-index: 1;
+}
+ul li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+#hometxt,#bbanktxt,#donartxt,#contacttxt{
+    position: relative;
+    top: 20px;
+    left: -47px;
+}
+#bbanktxt{
+    left: -70px;
+}
+#donartxt{
+    left: -50px;
+}
+#contacttxt{
+    left: -70px;
+}
